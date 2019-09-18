@@ -1,0 +1,34 @@
+{
+  "name": "adam-sandler-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "build": "babel --presets es2015 -d lib/ src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^43.0.0",
+    "nodemon": "^1.19.2",
+    "restify-cors-middleware": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "pretty-error": "^2.1.1",
+    "restify": "^8.4.0",
+    "restify-cors": "^1.0.1",
+    "rimraf": "^2.6.2",
+    "should": "^13.2.3"
+  }
+}

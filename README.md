@@ -3,6 +3,7 @@
 <p align='center'>
   <img src="https://cdn.ceoworld.biz/wp-content/uploads/2014/12/Adam-Sandler.jpg" style="width:500px; height:auto;">
 </p>
+
 ## Install
 
     npm install
